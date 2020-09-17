@@ -177,7 +177,7 @@ RUN apk add tzdata && \
 
 # config nginx
 
-COPY ./configFiles/* /etc/nginx
+COPY ./configFiles/* /etc/nginx/
 
 # CMD
 CMD echo 'Starting Nginx..' && \
